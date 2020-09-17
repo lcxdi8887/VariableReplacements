@@ -1,0 +1,18 @@
+@import '~variables/colors.scss';
+@import '~variables/test.scss';
+
+a {
+  color: $color-light-blue;
+  font-size: 12;
+}
+
+.b {
+  color: $color-light-blue2;
+  font-size: 13;
+}
+
+div {
+  span {
+    background: $color-light-blue;
+  }
+}
